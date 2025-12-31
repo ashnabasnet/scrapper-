@@ -7,6 +7,12 @@
 #install git
 #git config  --global user.name "Ashna basnet"
 #git config  --global user.email "ashnabasnet12345@gmail.com"
+#create repository in github
+#copy paste gitcode from github
+
+#always 
+#git add .
+#git commit git code from github
 
 
 import requests  
