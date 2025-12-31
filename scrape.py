@@ -25,7 +25,7 @@
 import requests  
 from bs4 import BeautifulSoup
 import csv
-
+import json
 
 url ="http://books.toscrape.com/"
 
@@ -71,7 +71,7 @@ all_books = scrape_books(url)
 
 
 with open('books.json', 'w', encoding='utf-8') as f:
-  import json
+  
 
   json.dump(all_books, f, indent = 2,ensure_ascii=False)
 # 🔹 save to CSV
