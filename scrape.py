@@ -1,5 +1,13 @@
 # python3 -m venv path/to/venv
 # source path/to/venv/bin/activate
+# => get data from web (html,json,xml)
+#python -m pip install beautifulSoup4
+# => parse html
+
+#install git
+#git config  --global user.name "Ashna basnet"
+#git config  --global user.email "ashnabasnet12345@gmail.com"
+
 
 import requests  
 from bs4 import BeautifulSoup
